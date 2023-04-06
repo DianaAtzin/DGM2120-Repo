@@ -1,0 +1,129 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+/* Header Stuff here*/
+header {
+    background-color: #778C7C;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #F2F2F2;
+}
+header p {
+    color:#F2DBD5;
+}
+header h2 {
+    margin: 0;
+    color: #F2F2F2;
+    letter-spacing: .5px;
+}
+/*nav stuff goes here*/
+
+nav {
+    background-color: #F2DBD5;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #735755;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li .active a {
+    background-color: #735755;
+    color:#F2B4AE;
+}
+nav a:hover{
+    color: #F2B4AE;
+}
+/* stuff for the main*/
+
+main{
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: black;
+}
+main h2 {
+    color: #735755;
+    margin-bottom: .2rem;
+}
+main h3 {
+    color: #735755;
+    font-weight: bolder;
+    font-style: italic;
+}
+main p {
+    color: black;
+    margin-bottom: .2rem;
+}
+
+main ol{
+    padding: .5rem 3vw;
+    background-color: #F2F2F2;
+    font-size:  1.5rem;
+
+}
+main dl dt {
+    color: #735755;
+    font-weight: 600;
+    font-size:  1rem;
+
+}
+main dl dd {
+    color: black;
+    font-size:  1rem;
+}
+main ul {
+    list-style-type: circle;
+    font-size:  1rem;
+}
+main li {
+    line-height: 125%;
+    margin-bottom: .3rem;
+    font-size:  1rem;
+}
+main #naturalstudio {
+    font-style: normal;
+    color: #735755;
+    background-color: #F2DBD5;
+    padding: .5rem;
+    width: 14rem;
+    border: 1px solid #778C7C;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #778C7C;
+
+}
+main a:hover {
+    color: #735755;
+    
+}
+/* footer stuff here*/
+footer {
+    background-color: #F2F2F2;
+    text-align: center;
+    color: #778C7C;
+    padding: 1rem 0;
+    font-size: 1rem;
+    margin: 0;
+}
+footer a {
+    color: #778C7C;
+}
+footer a:hover {
+    color: #735755;
+}
